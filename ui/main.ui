@@ -13,29 +13,11 @@
   <property name="windowTitle">
    <string>Draft</string>
   </property>
-  <widget class="QPlainTextEdit" name="draftTextEdit">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>50</y>
-     <width>471</width>
-     <height>211</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="historyButton">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>310</y>
-     <width>75</width>
-     <height>23</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>History</string>
-   </property>
-  </widget>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPlainTextEdit" name="draftTextEdit"/>
+   </item>
+  </layout>
  </widget>
  <resources/>
  <connections/>
