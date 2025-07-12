@@ -1,0 +1,9 @@
+{
+    "name": "Draft Window",
+    "package": "XSun771",
+    "author": "Sun, Yixin",
+    "version": "2.0",
+    "homepage": "https://github.com/XSun771/draft-ankiaddon",
+    "conflicts": [],
+    "target": "anki-25.0+"
+}
